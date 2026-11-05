@@ -1,0 +1,68 @@
+import type { Article } from "@/types/content";
+
+export const articles: Article[] = [
+  {
+    slug: "start-strength-training",
+    title: "A thoughtful place to start with strength training",
+    category: "Strength Training",
+    excerpt: "A few practical ways to make the first weeks of a strength routine feel less intimidating.",
+    content: [
+      "Starting something new can feel like the hardest part. Strength training does not have to begin with a complicated plan or a perfect setup. It can start with learning a few useful movements and practicing them consistently.",
+      "Give yourself time to learn. A coach can help you choose appropriate exercises, make adjustments, and build a rhythm that fits your schedule and comfort level.",
+      "Progress is personal. A steadier routine, improved technique, or feeling more confident in the gym can all be meaningful signs that your work is adding up.",
+    ],
+    image: "/images/h1.jpeg",
+    alt: "Strength training area with weights",
+    author: "Forge & Form Editorial",
+    date: "Training notes",
+    readingTime: "3 min read",
+  },
+  {
+    slug: "make-mobility-a-habit",
+    title: "Make a little more room for mobility",
+    category: "Mobility",
+    excerpt: "Small, repeatable movement breaks can make mobility work easier to keep in your week.",
+    content: [
+      "Mobility work does not need to be an elaborate routine. A short sequence of comfortable, controlled movements can be a useful way to check in with your body and build consistency.",
+      "Choose movements that feel appropriate for you, keep the effort manageable, and avoid pushing through pain. If you have concerns about an injury or health condition, consult a qualified healthcare professional.",
+      "A coach can help you find a starting point and adapt movements as your needs change over time.",
+    ],
+    image: "/images/h9.jpeg",
+    alt: "Mobility training in a studio",
+    author: "Forge & Form Editorial",
+    date: "Training notes",
+    readingTime: "2 min read",
+  },
+  {
+    slug: "build-a-routine-that-sticks",
+    title: "Build a training routine that fits real life",
+    category: "Personal Wellness",
+    excerpt: "Consistency gets easier when your plan is designed around the week you actually have.",
+    content: [
+      "A useful training plan should meet you where you are. Begin by looking at your existing commitments, energy, and preferences instead of aiming for an idealized schedule.",
+      "Keep the first version simple. When the routine fits your life, it becomes easier to repeat and adjust rather than abandon when a busy week arrives.",
+      "Personal coaching can add structure and encouragement while keeping the plan responsive to your needs.",
+    ],
+    image: "/images/a2.jfif",
+    alt: "Members supporting each other during a group training session",
+    author: "Forge & Form Editorial",
+    date: "Wellness notes",
+    readingTime: "3 min read",
+  },
+  {
+    slug: "everyday-nutrition-foundations",
+    title: "A few foundations for everyday nutrition",
+    category: "Nutrition",
+    excerpt: "Keep nutrition guidance practical, flexible, and grounded in your own needs.",
+    content: [
+      "Nutrition is personal, and there is no single approach that suits everyone. A sustainable starting point is often to notice your routines, preferences, and the small changes that feel manageable.",
+      "General education can be helpful, but it is not medical or individualized nutrition care. For a health condition or specific dietary needs, speak with a registered dietitian or another qualified professional.",
+      "At Forge & Form, general nutrition guidance is intended to complement training and support informed, everyday choices.",
+    ],
+    image: "/images/nutrition%20guidance.jpg",
+    alt: "Ingredients for an everyday nutritious meal",
+    author: "Forge & Form Editorial",
+    date: "Wellness notes",
+    readingTime: "3 min read",
+  },
+];
