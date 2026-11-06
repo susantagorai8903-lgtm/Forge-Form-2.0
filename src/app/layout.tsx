@@ -23,7 +23,7 @@ const business = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://forgeandform.com"),
   title: {
-    default: "Forge & Form | Personal Training in Portland, Oregon",
+    default: "Forge & Form",
     template: "%s | Forge & Form",
   },
   description: "Personalized strength training, personal coaching, mobility, and wellness at Forge & Form in Portland, Oregon.",
